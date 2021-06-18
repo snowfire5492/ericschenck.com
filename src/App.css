@@ -1,17 +1,20 @@
+
+
 .App {
+
   /* text-align: center; */
 }
 
 
-.font_rubik {
+.font-rubik {
   font-family: 'Rubik', sans-serif;
 }
 
-.font_limelight {
+.font-limelight {
   font-family: 'Limelight', cursive;
 }
 
-.font_caveat {
+.font-caveat {
   font-family: 'Caveat', cursive;
 }
 
