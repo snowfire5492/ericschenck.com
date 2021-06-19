@@ -1,7 +1,18 @@
 
+:root {
+  --font-color: rgb(202, 200, 200);
+  --shadow-color: rgb(170, 167, 165);
+  --background-color-blue: #0a1e31;
+  --background-color-purple: #31092c;
+  --background-color-orange: #b82f0d;
+  --background-color-aqua: #1c5155;
+  --background-color-green: #4ca025fb;
+  --background-color-light-blue: #6073c7;
+} 
 
 .App {
-
+  background-color: var(--background-color-blue);
+  overflow: hidden;
   /* text-align: center; */
 }
 

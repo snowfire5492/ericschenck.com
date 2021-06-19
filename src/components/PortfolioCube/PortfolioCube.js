@@ -1,10 +1,14 @@
 import Aux from '../../containers/hoc/Auxiliary';
+
 import classes from './PortfolioCube.module.css';
 
-function PortfolioCube() {
+const PortfolioCube = () => {
     return (
-        <div className={[classes.PortfolioCube, 'font-limelight'].join(' ')}>
-            <h1 className={classes.Title}>Coming Soon...</h1>          
+        <div className={classes.PortfolioCube}>
+            <div className={classes.Background}></div>
+            <div className={classes.Title}>
+                <h1 className={'font-limelight'}>Coming Soon...</h1>         
+            </div>
         </div>
     );
 }
